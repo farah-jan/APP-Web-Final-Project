@@ -1,0 +1,165 @@
+body{
+  background-image: url(https://catalox.network/rugs.jpg);
+  font-family: 'Lora', serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  width: 100%;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+ 
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li{
+  list-style: none;
+  padding: 0px 5px;
+}
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+a:hover{
+  color: navy;
+}
+
+
+#map{
+  width:5px;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.footer{
+  background-color: #f1f1f1;
+}
+.footerContainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialIcons a i {
+  font-size: 2em;
+  color: black;
+  opacity: 0.9; 
+}
+
+.socialIcons a:hover {
+  background-color: #111;
+  transition: 0.5s; 
+}
+
+.socialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+
+.footerNav {
+  margin: 30px 0; 
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footerNav ul li a {
+  color: black;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em; 
+  opacity: 0.7; 
+  transition: 0.5s; 
+
+}
+
+.footerNav ul li a:hover {
+  opacity: 1;
+  color: navy;
+}
+
+.footerBottom {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerBottom p {
+  color: white;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container{
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color:rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.container h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+
+}
+form input, form textarea{
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f7f7ff;
+  color: #333;
+
+}
+form input:focus, forminput:focus{
+  outline: none;
+  box-shadow: 0 0 5px #333;
+}
+form button{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #333;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+form button:hover{
+  background-color: #555;
+}
